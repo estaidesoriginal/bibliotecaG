@@ -64,7 +64,6 @@ fun MessageCardFoto(msg: Message) {
 fun PreviewMessageCard2() {
 
     val msg = Message("Lexi", "Hey, take a look at Jetpack Compose, it's great!")
-
             Column {
                 Text(text = msg.author)
                 Text(text = msg.body)
